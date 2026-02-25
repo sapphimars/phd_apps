@@ -1,10 +1,10 @@
 #set page(
   paper: "a4",
-  margin: (x: 2.5cm, y: 2.5cm),
+  margin: (x: 2.0cm, y: 1.7cm),
 )
 
 #set text(
-  font: "Apfel Grotezk",
+  font: "Zalando Sans",
   size: 11pt,
 )
 
@@ -18,14 +18,11 @@
   #text(size: 24pt, weight: "bold")[Meera Patel] \
 ]
 
-#v(0.5cm)
-#v(0.5cm)
+#v(0.4cm)
 
 // --- Date and addressee ---
-#text(size: 10pt)[
-  February 22, 2026 \
-  Prof. Sijing Shen \
-  University of Oslo \
+#text(size: 10pt, weight: "bold")[
+  *PhD Application to Dr. Siching Shen's Extragalactic Astrophysics group at University of Oslo*
 ]
 
 #v(0.5cm)
@@ -39,24 +36,15 @@
 #v(0.3cm)
 
 // --- Body ---
-I am writing to apply for the PhD position in extragalactic astrophysics within your group at the University of Oslo, working on numerical galaxy formation in the context of the ESA ARRAKIHS mission. I am currently completing my Master's in Physics and Astronomy at the University of Amsterdam, where I have focused on experimental physics, data analysis, and computational methods. While my research experience to date has been in experimental detector physics rather than astrophysical simulations, I bring strong computational skills, a deep interest in dark matter and structure formation, and a genuine passion for contributing to space science that I would be eager to channel into this work.
+I am writing to apply for the PhD position in extragalactic astrophysics within your group at the University of Oslo, working on numerical galaxy formation in the context of the ESA ARRAKIHS mission. I am currently completing my Master's in Physics and Astronomy at the University of Amsterdam, with a thesis at Nikhef on detector R&D for liquid noble gas TPCs under Dr. Tina Pollmann. My research background is in experimental physics rather than astrophysical simulations, but I bring strong computational and HPC skills, direct engagement with dark matter physics, and practical experience with real detector data that I believe would be valuable for a project connecting simulations to observational data from a space mission.
 
-I grew up in the United States on stories of NASA missions, and the dream of contributing to space science has stayed with me since childhood. The opportunity to be involved with ESA through the ARRAKIHS mission, using faint substructures around disk galaxies to constrain dark matter models, connects directly to what I find most exciting in physics: understanding the dark universe and how large-scale structure emerges from it. My coursework in cosmology and general relativity at the University of Amsterdam has given me a foundation in the theoretical framework underlying structure formation, and I am motivated to develop the simulation expertise needed to tackle these questions.
+My interest in dark matter models and their observational signatures developed through coursework and a scientific writing course with Prof. Gianfranco Bertone at the University of Amsterdam, where I conducted a literature review on Fuzzy Dark Matter, covering its theoretical foundations, predicted suppression of small-scale structure, and current observational prospects including gravitational wave signatures. This background made your group's recent work on interference in FDM filaments (Zimmermann et al. 2025) particularly striking to me: the finding that interference fringes provide a non-suppressive signature in the matter power spectrum that could break the FDM-WDM degeneracy is the kind of observable prediction that ARRAKIHS could eventually help test through its measurements of faint substructures. I am also aware that correctly interpreting such observations requires understanding how baryonic processes reshape dark matter profiles, something your earlier work on feedback-driven core formation in CDM halos (Governato et al. 2012) addresses directly, and which the PhD position's focus on modeling star formation, feedback, and gas accretion would let me engage with hands-on. The prospect of working at this intersection, where I can run simulations that incorporate both dark matter physics and baryonic processes, then comparing predictions with real multiwavelength observations from a space mission, is what draws me most to this position.
 
-My strongest asset for this position is my computational background. I am experienced in Fortran, C/C++, Python, and Bash, and I am comfortable working in Linux environments with version control. As a personal project, I have been developing a Kerr black hole ray-tracing visualizer in Fortran, implementing a fourth-order Runge-Kutta integrator for geodesic equations around rotating black holes, currently simulating light paths with thin-disk accretion and with plans to incorporate gravitational lensing effects. While this is not hydrodynamical simulation, it demonstrates my ability to independently write physics simulations from scratch, work with numerical methods for differential equations, and generate and post-process large sets of simulation output. During my Bachelor's at Boston University, I developed particle extrapolation algorithms in C++ for the Fermilab g-2 experiment, optimizing performance by 4x. In my current master's thesis at Nikhef, I have refactored data processing pipelines and implemented signal processing techniques such as matched filtering. I also have experience with PyTorch through coursework in machine learning for physics, which may be useful for ML-augmented analysis of simulation data. I also have practical experience working on computing clusters, having used the Fermilab cluster for my Bachelor's research, the Nikhef computing infrastructure for my thesis work, and the national Snellius supercomputer for machine learning coursework. While these were not in the context of astrophysical simulations, they have made me comfortable with remote computing environments, batch job submission, and managing large-scale computational workflows.
+My strongest technical preparation for this position is computational. I am experienced in Fortran, C/C++, Python, and Bash, and comfortable in Linux environments. As a personal project, I am developing a Kerr black hole ray tracing visualizer in Fortran, implementing a fourth-order Runge-Kutta integrator for geodesic equations. This is not hydrodynamical simulation, but it demonstrates my ability to write physics simulations from scratch, work with numerical ODE solvers, and generate and post-process large simulation output. I also have practical HPC experience across multiple clusters: the Fermilab computing infrastructure during my Bachelor's research on the g-2 experiment, the Nikhef cluster for my current thesis, and the national Snellius supercomputer for machine learning coursework. These have made me comfortable with batch job submission, remote computing environments, and large scale computational workflows. In my thesis work, I have refactored data processing pipelines and implemented signal processing techniques such as matched filtering, and I have experience with PyTorch from ML coursework that may be useful for ML-augmented analysis of simulation data. My thesis work has also shown me that I thrive when given independence to design and execute improvements on my own initiative, from hardware upgrades to analysis refactoring, while contributing to the group through supervising a bachelor's student and helping officemates with programming, integrals, and CAD. I look forward to continuing this balance of independent work and collaboration in a PhD.
 
-I recognize that I do not yet have direct experience with astrophysical hydrodynamical simulations specifically, but I have a strong computational foundation including HPC experience across multiple clusters, and I am genuinely excited about developing simulation expertise in this area. The chance to design and run cosmological simulations, model baryonic processes and dark matter physics, and compare simulation output with multi-wavelength observations from ARRAKIHS is exactly the kind of work I want to dedicate the next years of my career to.
-
-Thank you for considering my application. I would welcome the opportunity to discuss how my computational skills and enthusiasm for this field could contribute to your group's research.
+The opportunity to design and run cosmological hydrodynamical simulations, develop models for baryonic processes and dark matter physics, and compare predictions with multi-wavelength ARRAKIHS observations is the kind of work I want to dedicate the next years to. My experimental background, including understanding noise, systematics, calibration, and what real data looks like, is something I would bring to the observational comparison side of this project that a purely computational applicant might not. I would welcome the opportunity to discuss how my skills and background could contribute to your group's work.
 
 #v(0.3cm)
 
 Sincerely, \
-Meera Patel \
-#v(1cm)
-#set text(
-  font: "Apfel Grotezk",
-  size: 11pt,
-)
-+31 06 16 74 69 20 \
-meera\@meerapatel.co
+Meera Patel

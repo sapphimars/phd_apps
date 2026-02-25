@@ -1,10 +1,10 @@
 #set page(
   paper: "a4",
-  margin: (x: 2.5cm, y: 2.5cm),
+  margin: (x: 2.0cm, y: 1.7cm),
 )
 
 #set text(
-  font: "Apfel Grotezk",
+  font: "Zalando Sans",
   size: 11pt,
 )
 
@@ -18,14 +18,11 @@
   #text(size: 24pt, weight: "bold")[Meera Patel] \
 ]
 
-#v(0.5cm)
-#v(0.5cm)
+#v(0.4cm)
 
 // --- Date and addressee ---
-#text(size: 10pt)[
-  February 22, 2026 \
-  Dr. Alfons Weber \
-  PRISMA++, JGU Mainz \
+#text(size: 10pt, weight: "bold")[
+  *PhD Application to Dr. Alfons Weber's DUNE group at PRISMA++, JGU Mainz*
 ]
 
 #v(0.5cm)
@@ -39,22 +36,17 @@
 #v(0.3cm)
 
 // --- Body ---
-I am writing to apply for the PhD position on the DUNE experiment within your working group at JGU Mainz and PRISMA++. My first preference is the DUNE position, but as a secondary interest, I would also be excited to contribute to the DarkMESA experiment given my broader interest in dark matter physics. I am currently completing my Master's in Physics and Astronomy at the University of Amsterdam, working on my thesis at Nikhef on detector R&D for liquid noble gas TPCs under Dr. Tina Pollmann.
+I am writing to apply for the PhD position on the DUNE experiment within your working group at JGU Mainz and PRISMA++. I am currently completing my Master's in Physics and Astronomy at the University of Amsterdam, working on my thesis at Nikhef on detector R&D for liquid noble gas TPCs under Dr. Tina Pollmann.
 
-My thesis work on the VULCAN experiment at Nikhef, which is connected to the liquid noble gas TPC dark matter experiments like XENONnT, involves measuring photoluminescence properties of wavelength-shifting materials at VUV wavelengths for detector R&D. I work on both the hardware and analysis sides, designing hardware upgrades for the vacuum setup, including a new SiPM cooling system to reduce dark count rates, and refactoring the data analysis pipeline with techniques such as matched filtering to recover sensitivity lost to noise. Mainly, I am installing an optical chopper designed to pulse the light to then time-resolve the decay of the photoluminescence. I also received the Olga Igonkina Foundation Travel Grant to visit AstroCENT in Poland, where I will conduct VUV photoluminescence measurements in a liquid argon cooled setup, giving me direct hands-on experience with LAr systems relevant to DUNE. Earlier, during my Bachelor's at Boston University, I worked on the Fermilab g-2 experiment, developing particle extrapolation algorithms in C++ using CERN's GEANE package and ROOT. I am comfortable working in C/C++, Python, Fortran, and Bash. I have also gained experience in supervising bachelor's students at Nikhef and enjoy teaching.
+My research experience spans both analysis and hardware in large experimental collaborations. During my undergraduate at Boston University, I worked on the Fermilab g-2 experiment, developing particle extrapolation algorithms in C++ using CERN's GEANE package and ROOT. This was work that gave me a solid foundation in the analysis tools and collaborative workflows of large particle physics experiments. My current thesis work on the VULCAN experiment at Nikhef involves measuring photoluminescence properties of wavelength-shifting materials at VUV wavelengths, connected to liquid noble gas TPC experiments like XENONnT. I am installing an optical chopper to time-resolve photoluminescence decay, designing hardware upgrades including a new SiPM cooling system using CAD, and refactoring the analysis pipeline with techniques such as matched filtering. I also received the Olga Igonkina Foundation Travel Grant to conduct VUV photoluminescence measurements in a liquid argon setup at AstroCENT in Poland, giving me direct hands-on experience with LAr systems relevant to DUNE.
 
-The physics goals of DUNE are what draw me most to this position. The prospect of probing CP violation in the lepton sector through precision neutrino oscillation measurements is one of the most exciting programs in particle physics today, and I have been introduced to the theoretical foundations through my astroparticle physics coursework at UvA. The DUNE-PRISM concept for controlling systematic uncertainties through off-axis measurements is an elegant approach, and I am drawn to the challenge of developing detector optimization and analysis methods to fully exploit it. My experience in detector R&D, hardware design, and data analysis has prepared me to contribute to this effort.
+Working on VULCAN has taught me that I thrive when given independence within a supportive group. My supervisor entrusted me with designing and executing hardware and software improvements on my own initiative during waiting periods for the main measurement, and I have found this kind of self-directed problem solving, such as iterating on a cooling design, debugging a vacuum setup, and rethinking an analysis approach, to be where I do my best work. I also enjoy the collaborative side; I regularly help officemates with CAD, programming questions, and the occasional integral check. I have also been supervising a bachelor's student who recently joined the VULCAN project, helping him get familiar with the setup and analysis. I look forward to continuing this balance of independent research and mentorship in a PhD.
 
-Thank you for considering my application. I would welcome the opportunity to discuss how my background could contribute to your group's work on DUNE.
+The physics goals of DUNE are what draw me most to this position. Probing CP violation in the lepton sector through precision neutrino oscillation measurements could help explain the matter-antimatter asymmetry in the universe, and I have been introduced to the theoretical foundations through my astroparticle physics coursework at UvA. Your trajectory from the first indications of CP violation at T2K to leading the near detector design for DUNE is one I find compelling, and the DUNE-PRISM concept for controlling systematic uncertainties through off-axis measurements is an elegant approach I am eager to work on. My experience in detector R&D, hardware design, and data analysis maps directly onto the position's goals of optimizing detector design and developing methods to measure cross sections and oscillation parameters. The broader PRISMA++ environment, with its connections to XENONnT, other neutrino experiments, and the detector development laboratory, would also allow me to draw on and contribute to a community whose research interests closely overlap with my own.
+
+Thank you for considering my application. I would be glad to discuss how my experience could contribute to your group's work on DUNE.
 
 #v(0.3cm)
 
 Sincerely, \
-Meera Patel \
-#v(1cm)
-#set text(
-  font: "Apfel Grotezk",
-  size: 11pt,
-)
-+31 06 16 74 69 20 \
-meera\@meerapatel.co
+Meera Patel
